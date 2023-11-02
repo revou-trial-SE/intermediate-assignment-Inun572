@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   transition: all 0.3s;
+  overflow-x: hidden;
 }
 
 section {
@@ -17,7 +18,7 @@ section {
   color: #0dcaf0;
 }
 
-.card img {
+.card > img {
   width: 128px;
   height: 128px;
 }
