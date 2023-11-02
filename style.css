@@ -14,5 +14,10 @@ section {
   transition: 0.3s;
 }
 .navbar a:hover {
-  color: cyan;
+  color: #0dcaf0;
+}
+
+.card img {
+  width: 128px;
+  height: 128px;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/bootstrap-utilities.min.css" />
     <title>Helmi Ainun Naim</title>
   </head>
   <body>
@@ -49,8 +50,8 @@
           >
             <div class="col-6">
               <img
-                src="/assets/profile.JPG"
-                class="d-block mx-md-auto img-fluid rounded-circle border-3 border-white"
+                src="./assets/profile.JPG"
+                class="d-block mx-md-auto img-fluid img-thumbnail rounded-circle border-3 border-info"
                 alt="Bootstrap Themes"
                 width="700"
                 height="500"
@@ -76,19 +77,60 @@
           </div>
         </div>
       </section>
-      <section id="about" class="vh-100 px-2 px-sm-5">
-        <div class="container pt-sm-5 col-sm-10 col-xl-8">
+      <section
+        id="about"
+        class="row min-vh-100 d-flex align-items-center px-2 px-sm-5"
+      >
+        <div class="container pt-sm-1 col-sm-12 col-xl-8">
           <h2 class="lh-1 my-3 mb-5 text-info text-center text-sm-end fw-bold">
             about me
           </h2>
-
-          <p class="text-center text-sm-end">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-            aliquam ullam facilis perferendis quaerat qui, harum iure provident
-            omnis enim natus consequuntur magni, architecto dignissimos eius
-            aspernatur? Delectus sequi repudiandae iure modi cumque, tempore,
-            laboriosam, esse error nulla quam dolor.
-          </p>
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-center align-items-center gap-4"
+          >
+            <div class="col-6 col-sm-4 card mb-3 bg-dark mh-100">
+              <img
+                src="./assets/graduation-cap.png"
+                class="card-img-top object-fit-cover align-self-center p-2"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Education</h5>
+                <p class="card-text">Gadjah Mada University</p>
+                <p class="card-text">
+                  <small class="text-body-secondary">Physics Engineering</small>
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 card mb-3 bg-dark">
+              <img
+                src="./assets/project.png"
+                class="card-img-top object-fit-cover align-self-center p-2"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Projects</h5>
+                <p class="card-text">5+ Completed Projects</p>
+                <p class="card-text">
+                  <small class="text-body-secondary">2022-2023</small>
+                </p>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 card mb-3 bg-dark">
+              <img
+                src="./assets/certificate.png"
+                class="card-img-top object-fit-cover align-self-center p-2"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Certifications</h5>
+                <p class="card-text">Fullstack Software Engineering</p>
+                <p class="card-text">
+                  <small class="text-body-secondary">at RevoU</small>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section id="project" class="vh-100 bg-danger">
