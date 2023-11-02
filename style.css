@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  transition: all 0.3s;
+}
+
+section {
+  scroll-snap-align: start;
+  padding-top: 4rem;
+  min-height: 100vh;
+}
+
+.navbar a {
+  transition: 0.3s;
+}
+.navbar a:hover {
+  color: cyan;
+}
