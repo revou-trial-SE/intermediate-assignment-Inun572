@@ -22,3 +22,7 @@ section {
   width: 128px;
   height: 128px;
 }
+
+.carousel-caption {
+  background-color: rgba(13, 13, 13, 0.5);
+}
